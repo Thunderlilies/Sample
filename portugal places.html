@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portugal Places</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            background: linear-gradient(to right, #fdf6f0, #e0f7fa);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #0097a7;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background: #006064;
+            padding: 12px 0;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 20px;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 16px;
+            Cursor:pointer;
+        }
+
+        nav ul li:hover {
+            text-decoration: underline;
+        }
+
+        .places-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+        }
+
+        .Places {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 15px;
+            width: 320px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .Places:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+
+        .Places img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .Places h1 {
+            font-size: 1.4rem;
+            color: #00796b;
+        }
+
+        .Places p {
+            margin: 10px 0;
+        }
+
+        .Places ul {
+            padding-left: 20px;
+        }
+
+        .Places li {
+            margin-bottom: 8px;
+        }
+        footer {
+            background: #004d40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Portugal 🇵🇹</h1>
+        <p>The land of pastel de nata, fado music, and stunning coastlines!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portugal places.html">Places to Visit</a></li>
+            <li>Food to Eat</li>
+            <li><a href="portugal personality.html">Famous Personalities</a></li>
+            <li>FAQs</li>
+        </ul>
+    </nav>
+    <div class="places-container">
+        <div class="Places">
+            <img src="Lisbon.jpeg" alt="Lisbon">
+            <h1>Lisbon – The Chill but Cool Capital</h1>
+            <p>Portugal’s sunny capital is full of pastel-colored buildings, cute trams, and amazing views from the hilltops. Don’t miss:</p>
+            <ul>
+                <li><b>Belém Tower</b> – a tower that's been standing since 1519</li>
+                <li><b>Alfama</b> – get lost in the narrow streets</li>
+                <li><b>Time Out Market</b> – yummiest bites 🧀🍤</li>
+            </ul>
+        </div>
+        <div class="Places">
+            <img src="sintra.jpeg" alt="Sintra">
+            <h1>Sintra – Fairytales, But Make It Real</h1>
+            <p>Sintra looks like it came out of a Disney movie. Forests, palaces, and fog that makes it spooky-but-cool.</p>
+            <ul>
+                <li><b>Palácio da Pena</b> – rainbow-colored castle</li>
+                <li><b>Quinta da Regaleira</b> – mystical garden 🌀</li>
+            </ul>
+        </div>
+        <div class="Places">
+            <img src="porto.jpeg" alt="Porto">
+            <h1>Porto – Where the River Meets the Vibe</h1>
+            <p>This northern city is where you sip on Port wine, walk on cute bridges, and chill by the Douro River.</p>
+            <ul>
+                <li><b>Dom Luís I Bridge</b> – sunset views</li>
+                <li><b>Livraria Lello</b> – Harry Potter vibes 🪄📚</li>
+                <li><b>Ribeira</b> – colorful riverfront area</li>
+            </ul>
+        </div>
+        <div class="Places">
+            <img src="algarve.jpeg" alt="Algarve">
+            <h1>Algarve – Beaches That Slay Harder Than Summer</h1>
+            <p>The southern coast is all cliffs and turquoise water. It’s giving dreamy vacay.</p>
+            <ul>
+                <li><b>Benagil Cave</b> – a beach inside a cave</li>
+                <li><b>Ponta da Piedade</b> – dramatic cliffs</li>
+                <li><b>Lagos</b> – beach town vibes 🏖️🌴</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        Explore the beautiful places of Portugal 💕
+    </footer>
+</body>
+</html>

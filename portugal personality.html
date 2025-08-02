@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Top 5 Famous Portuguese Personalities</title>
+  <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            background: linear-gradient(to right, #fdf6f0, #e0f7fa);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #0097a7;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background: #006064;
+            padding: 12px 0;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 20px;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 16px;
+            Cursor:pointer;
+        }
+
+        nav ul li:hover {
+            text-decoration: underline;
+        }
+
+        .places-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+        }
+
+        .Places {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 15px;
+            width: 320px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .Places:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+
+        .Places img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .Places h1 {
+            font-size: 1.4rem;
+            color: #00796b;
+        }
+
+        .Places p {
+            margin: 10px 0;
+        }
+
+        .Places ul {
+            padding-left: 20px;
+        }
+
+        .Places li {
+            margin-bottom: 8px;
+        }
+
+
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      display: flex;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .info {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .info h2 {
+      margin: 0 0 10px;
+      color: #00796b;
+    }
+
+    .info p {
+      margin: 6px 0;
+      font-size: 1rem;
+    }
+
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+      }
+
+      .info {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Portugal 🇵🇹</h1>
+        <p>The land of pastel de nata, fado music, and stunning coastlines!</p>
+    </header>
+    <nav>
+        <ul>
+         <li><a href="index.html">Home</a></li>
+            <li><a href="portugal places.html">Places to Visit</a></li>
+            <li>Food to Eat</li>
+            <li><a href="portugal personality.html">Famous Personalities</a></li>
+            <li>FAQs</li>
+        </ul>
+    </nav>
+
+  <div class="container">
+
+    <div class="card">
+      <img src="https://cdn.antaranews.com/cache/1200x800/2019/12/30/skysports-cristiano-ronaldo_4822329.jpg" alt="Cristiano Ronaldo">
+      <div class="info">
+        <h2>1. Cristiano Ronaldo</h2>
+        <p><strong>Field:</strong> Football</p>
+        <p>One of the greatest footballers ever. Multiple Ballon d'Or winner and global icon.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXbng7aEFR_J4li2GrWXRQTnvDZkIBzohKSA&s" alt="Vasco da Gama">
+      <div class="info">
+        <h2>2. Vasco da Gama</h2>
+        <p><strong>Field:</strong> Exploration</p>
+        <p>Legendary explorer who opened the sea route from Europe to India.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoj5l9U70djvDYqd8sF5WQ4RTojZbLOLdMcw&s" alt="Fernando Pessoa">
+      <div class="info">
+        <h2>3. Fernando Pessoa</h2>
+        <p><strong>Field:</strong> Literature</p>
+        <p>Brilliant poet and writer, famous for his literary innovation and personas.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJNvEWoeT4cqLJqcyifzbUAXpdFtS5w8Ibtg&s" alt="Amália Rodrigues">
+      <div class="info">
+        <h2>4. Amália Rodrigues</h2>
+        <p><strong>Field:</strong> Music</p>
+        <p>Queen of Fado. Her voice and legacy define Portuguese music.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9CcpS62fCZkilKYPOrn0fVlsDSP3fEF1YyQ&s" alt="José Saramago">
+      <div class="info">
+        <h2>5. José Saramago</h2>
+        <p><strong>Field:</strong> Literature</p>
+        <p>Nobel Prize-winning author known for his thought-provoking novels and distinct style.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    Celebrating Portugal's Icons 🇵🇹✨
+  </footer>
+</body>
+</html>
